@@ -3,5 +3,22 @@
   "version": "0.1.0",
   "main": "index.js",
   "author": "Takuro Fukamizu <takuro.f.1987@gmail.com>",
-  "license": "MIT"
+  "engines": {
+    "node": ">=10.16.3",
+    "gitbook": ">=3.0.0"
+  },
+  "keywords": [
+    "gitbook",
+    "draw-io",
+    "drawio",
+    "mxgraph",
+    "automation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "puppeteer": "^2.1.1",
+    "shelljs": "^0.8.4"
+  }
 }
